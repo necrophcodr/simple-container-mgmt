@@ -1,6 +1,5 @@
 import { file } from "bun";
 import { Database } from "bun:sqlite";
-import { exit } from "process";
 
 const db = new Database();
 
@@ -173,5 +172,3 @@ oci_objs.reverse().forEach((e) => {
         Docker[e].create(o, cfg);
     });
 });
-
-exit(0);
