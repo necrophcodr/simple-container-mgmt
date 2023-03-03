@@ -1,0 +1,5 @@
+.direnv/
+result
+config.json
+node_modules/
+bun.lockb
