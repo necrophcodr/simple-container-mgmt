@@ -49,8 +49,8 @@ To use this project, simply clone it elsewhere, and add a local `config.json` fi
             "cap_add": ["SYS_PTRACE"],
             "security_opt":["apparmor=unconfined"],
             "volumes":[{ 
-                    src: "/a",
-                    dest: "/b" 
+                    "src": "/a",
+                    "dest": "/b" 
                     }],
             "ports":[
                 "1234:4321"
